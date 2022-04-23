@@ -2,10 +2,12 @@
 layout: page
 title: research
 permalink: /projects/
-description: Here is my research.
+#description: Here is my research.
 nav: true
 #display_categories: [work, fun]
 horizontal: false
+math: true
+
 ---
 
 <!-- pages/projects.md -->
@@ -13,7 +15,7 @@ horizontal: false
 My research areas lie in the intersection of combinatorics and algebra. In particular, I am interested in the [Erdős-Ko-Rado (EKR) theorem](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Ko%E2%80%93Rado_theorem) for permutation groups. I also do research in the field of algebraic graph theory.
 
 ### Intersecting problems for permutation groups
-Given a set of permutations F of a set Ω, we say that F is *intersecting* if any two permutations of F agree on an element of Ω. That is,
+Given a set of permutations F of a set Ω, we say that F is *intersecting* if any two permutations of F agree on an element of $\Omega$. That is,
 
  $$ \forall g,h \in F, \exists \omega\in \Omega \text{ such that } \omega ^g = \omega^h.$$
 

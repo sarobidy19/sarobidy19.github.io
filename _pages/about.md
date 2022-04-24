@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: my_prof_pic.jpg
+  image: my_prof_pic5.jpg
   address: >
     <p>CW 307.25</p>
     <p>College West</p>
@@ -20,3 +20,5 @@ social: true  # includes social icons at the bottom of the page
 I am a PhD student in discrete mathematics at the University of Regina. My advisors are  [Karen Meagher](http://uregina.ca/~meagherk/) and [Shaun Fallat](http://uregina.ca/~sfallat/).
 
 I primarily work on [Erdős–Ko–Rado](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Ko%E2%80%93Rado_theorem) type results for various combinatorial objects with algebraic flavours. I am particularly interested in problems related to permutation groups and algebraic graph theory.
+
+You can find my CV [here.](/assets/pdf/cv.pdf)

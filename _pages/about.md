@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: my_prof_pic5.jpg
+  image: my_prof_pic8.jpg
   address: >
     <p>CW 307.25</p>
     <p>College West</p>

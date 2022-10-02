@@ -26,3 +26,11 @@ Here are some materials on this topic:
 2. Chris Godsil and Karen Meagher. A new proof of the Erdős-Ko-Rado theorem for intersecting families of permutations. European Journal of Combinatorics, 30(2):404--414, 2009.
 3. Chris Godsil and Karen Meagher. Erdős-Ko-Rado theorems: algebraic approaches
 4. Hujdurović, A., Kutnar, K., Kuzma, B., Marušič, D., Miklavič, Š., and Orel, M. On intersection density of transitive groups of degree a product of two odd primes. Finite Fields and Their Applications 78 (2022): 101975.
+
+
+### Spectral graph theory
+
+I am also interested in questions regarding eigenvalues of graphs that are more or less ''symmetric''. Here, I will describe some of them.
+
+#### Spectrum of normal Cayley graphs  
+Consider the Cayley graph $$ Cay(Sym(n),T_n) $$, where $$T_n$$ is the set of all transpositions of $$Sym(n)$$. It is clear that the eigenvalue corresponding to a self-transpose partition of $$n$$ is equal to $$0.$$ Find the multiplicity of the eigenvalue $$0$$ of this graph.

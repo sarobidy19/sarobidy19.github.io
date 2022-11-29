@@ -8,9 +8,9 @@ profile:
   align: right
   image: my_prof_pic8.jpg
   address: >
-    <p>CW 307.25</p>
-    <p>College West</p>
-    <p>Regina, Saskatchewan</p>
+    <p>II-3</p>
+    <p>UP FAMNIT</p>
+    <p>Koper, Slovenia</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

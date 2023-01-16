@@ -6,7 +6,7 @@ title: teaching
 nav: true
 ---
 
-
+* **Graph theory** (Winter 2023)
 * **Modern Algebra I** (Winter 2022)
 * **Introduction to Abstract Algebra** (Winter 2021)
 * **Introduction to Linear Algebra** (Fall 2019, Winter 2020, Spring 2020, Fall 2020, Fall 2021)

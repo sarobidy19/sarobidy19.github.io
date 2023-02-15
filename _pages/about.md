@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: my_prof_pic5.jpg
+  image: fig11.jpg
   address: >
     <p>II-14</p>
     <p>UP FAMNIT</p>

@@ -82,8 +82,8 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Intersection and Symmetry  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: ☢  # your blog must have a name for it to show up in the nav bar
+blog_description: math, academia, science, linux
 permalink: /blog/:year/:title/
 
 # Pagination

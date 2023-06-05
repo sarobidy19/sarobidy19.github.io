@@ -6,7 +6,7 @@ title: teaching
 nav: true
 ---
 
-* **Algebra I**
+* **Algebra I** (Winter 2023)
 * **Graph theory, Selected Topics in Algebra** (Spring 2023)
 * **Modern Algebra I** (Winter 2022)
 * **Introduction to Abstract Algebra** (Winter 2021)

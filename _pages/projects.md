@@ -12,7 +12,7 @@ math: true
 
 <!-- pages/projects.md -->
 
-My research areas lie in the intersection of combinatorics and algebra. In particular, I am interested in the [Erdős-Ko-Rado (EKR) theorem](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Ko%E2%80%93Rado_theorem) for permutation groups. I also do research in the field of algebraic graph theory.
+My research areas lie in the intersection of combinatorics and algebra. In particular, I am interested in the [Erdős-Ko-Rado (EKR) theorem](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Ko%E2%80%93Rado_theorem) for permutation groups and, sometimes, for other combinatorial structures. I also do research on some topics in the field of algebraic/spectral graph theory.
 
 ### Intersecting problems for permutation groups
 Given a set of permutations F of a set Ω, we say that F is *intersecting* if any two permutations of F agree on an element of $\Omega$. That is,

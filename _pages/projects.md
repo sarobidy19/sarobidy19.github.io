@@ -3,7 +3,7 @@ layout: page
 title: research
 permalink: /projects/
 #description: Here is my research.
-nav: true
+nav: true #to remove project
 #display_categories: [work, fun]
 horizontal: false
 math: true

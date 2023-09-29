@@ -70,8 +70,11 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
+
 contact_note: >
   The best way to reach me is by email at sarobidy at phystech dot edu.
+  <p> </p>
+  <p><a href="https://info.flagcounter.com/pnSo"><img src="https://s01.flagcounter.com/count2/pnSo/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a></p>
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)

@@ -6,6 +6,10 @@ title: talks
 nav: true
 ---
 
+* **Finite Geometry Workshop, 2023**\\
+	Title: *The intersection density of transitive groups of degree 3p*\\
+	Location: Szeged, Hungary\\
+	[[slides]]()
 
 * **RICCOTA, 2023**\\
 	Title: *An Erdős-Ko-Rado theorem for transitive groups of degree a product of two odd primes*\\

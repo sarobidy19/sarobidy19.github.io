@@ -6,6 +6,16 @@ title: talks
 nav: true
 ---
 
+* **Combinatorics seminar, Wisconsin-Madison 2023**\\
+	Title: *The ratio bound and the Erdős-Ko-Rado theorem for transitive groups*\\
+	Location: online\\
+	[[slides]]()
+
+* **Algebraic graph theory seminar, Waterloo 2023**\\
+	Title: *The intersection density of transitive groups of degree 3p*\\
+	Location: online\\
+	[[slides]]()
+
 * **Finite Geometry Workshop, 2023**\\
 	Title: *The intersection density of transitive groups of degree 3p*\\
 	Location: Szeged, Hungary\\

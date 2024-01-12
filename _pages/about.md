@@ -6,13 +6,13 @@ permalink: /
 
 profile:
   align: right
-  image: fig11.jpg
+  image: fig13.jpg
   address: >
     <p>II-14</p>
     <p>UP FAMNIT</p>
     <p>Koper, Slovenia</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page.
 ---

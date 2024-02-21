@@ -66,7 +66,7 @@ You can read the official CMS instructions [here](https://summer24.cms.math.ca/a
 <table style="width:100%">
 <tr>
    <td style="text-align:center"><img src="/assets/img/fig23.jpg" height="150"></td>
-   <td style="text-align:center"><img src="/assets/img/mitra3.jpg" height="150"></td>
+   <td style="text-align:center"><img src="/assets/img/mitra4.jpg" height="150"></td>
    <td style="text-align:center"><img src="/assets/img/fig17.webp" height="150"></td>
 </tr>
 <tr>

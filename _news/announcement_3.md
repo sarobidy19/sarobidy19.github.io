@@ -66,13 +66,13 @@ You can read the official CMS instructions [here](https://summer24.cms.math.ca/a
 <table style="width:100%">
 <tr>
    <td style="text-align:center"><img src="/assets/img/herman_a.jpg" height="150"></td>
-   <td style="text-align:center"><img src="/assets/img/fig23.jpg" height="150"></td>
    <td style="text-align:center"><img src="/assets/img/mitra4.jpg" height="150"></td>
+   <td style="text-align:center"><img src="/assets/img/fig23.jpg" height="150"></td>
 </tr>
 <tr>
    <td style="text-align:center"><a href="https://uregina.ca/~hermana/">Allen Herman</a> <br> University of Regina</td>
-   <td style="text-align:center"><a href="https://sarobidyraz.com/">Sarobidy Razafimahatratra</a> <br> University of Primorska</td>
    <td style="text-align:center"><a href="https://roghayehmaleki.github.io/">Roghayeh Maleki</a> <br> University of Primorska</td>
+   <td style="text-align:center"><a href="https://sarobidyraz.com/">Sarobidy Razafimahatratra</a> <br> University of Primorska</td>
    
 </tr>
 

@@ -34,7 +34,7 @@ To submit your abstract, please click [here](https://www2.cms.math.ca/Events/sum
 
 ### Accommodation and travel 
 
- 1. *Staybridge Suites* (1838 College Drive East, Bldg #1, Saskatoon, SK S7N 2Z8)
+<!-- 1. *Staybridge Suites* (1838 College Drive East, Bldg #1, Saskatoon, SK S7N 2Z8)
 
     **Rate: 150 CAD**
 
@@ -42,7 +42,7 @@ To submit your abstract, please click [here](https://www2.cms.math.ca/Events/sum
 
     You can book by clicking [here](https://www.ihg.com/staybridge/hotels/us/en/find-hotels/select-roomrate?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=YXESB&qCiD=30&qCiMy=042024&qCoD=04&qCoMy=052024&qGrpCd=CMS&qAAR=6CBARC&qRtP=6CBARC&setPMCookies=true&qSHBrC=SB&qDest=1838%20College%20Drive%20East,%20Bldg%231,%20Saskatoon,%20SK,%20CA&srb_u=1&qChAge=&qRmFltr=)
 
- 2. *University Residence – Voyageur Place* (Athabasca Hall - Voyageur Place Dormitories - 91 Campus Drive)
+[//]: <>  2. *University Residence – Voyageur Place* (Athabasca Hall - Voyageur Place Dormitories - 91 Campus Drive)
 
       **Rate:**
 
@@ -52,14 +52,14 @@ To submit your abstract, please click [here](https://www2.cms.math.ca/Events/sum
       * The above rates are subject to **5% GST and 6% PST**
 
       You can find more details on how to book by clicking [here](https://usask.starrezhousing.com/StarRezPortalXConference/83E19556/21/223/Register-Register?UrlToken=ADC9415E&ReturnUrl=%2FStarRezPortalXConference%2F30F729D7%2F23%2F229%2FBooking_-Group_Selector%3FUrlToken%3DF5A20F8D). You can also read the official CMS instructions [here.](https://summer24.cms.math.ca/accomodation-and-travel)
-3. *By air to YXE*
+[//]: <>  3. *By air to YXE*
 
       *Air Canada is offering special discounts to delegates attending the CMS Summer Meeting for travel to and from Saskatoon, SK between Friday, May 24, 2024 and Monday, June 10, 2024.*
 
       *This a promotion code for the meeting. To book a flight with your promotion code, access aircanada.com and enter your promotion code in the Promotion Code Box.  Enter the **Promotion Code PQDMHQB1** during booking to receive the discount. If it is not entered or entered incorrectly, the discounts will not be applied to the booking. Ticketing agencies/airlines must record the code on the delegate’s ticket.*
 
       *Discounts: 10% discount on eligible fares. For North America' 5% applies on standard fares, 10% on flex fares & higher. For International Travel' 10% on standard fares & higher.*
-
+-->
 You can read the official CMS instructions [here](https://summer24.cms.math.ca/accomodation-and-travel) for more details.
 
 ### Organizers

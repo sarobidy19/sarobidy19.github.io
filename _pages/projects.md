@@ -64,9 +64,14 @@ Here are some reading materials on this topic:
 4. Hujdurović, A., Kutnar, K., Kuzma, B., Marušič, D., Miklavič, Š., and Orel, M. On intersection density of transitive groups of degree a product of two odd primes. Finite Fields and Their Applications 78 (2022): 101975.
 
 
-### Spectral graph theory
+### Non-diagonalizable vertex-primitive arc-transitive digraphs
 
-I am also interested in questions regarding eigenvalues of graphs that are more or less ''symmetric''. Here, I will describe some of them.
+Let $$X = (V,E)$$ be a digraph with vertex set $$V$$ and arc set $$E$$. We say that $$X$$ is *diagonalizable* if its adjacency matrix is diagonalizable over the complex number. If $$E$$ is symmetric, then of course the adjacency matrix of $$X$$ is a symmetric matrix, hence diagonalizable. An example of a non-diagonalizable digraph is one whose adjacency matrix is a Jordan block. In general, one can come up with lots of examples but those arising from highly symmetric digraphs are more or less rare.
 
-#### Spectrum of normal Cayley graphs  
-Consider the Cayley graph $$ Cay(Sym(n),T_n) $$, where $$T_n$$ is the set of all transpositions of $$Sym(n)$$. It is clear that the eigenvalue corresponding to a self-transpose partition of $$n$$ is equal to $$0.$$ Find the multiplicity of the eigenvalue $$0$$ of this graph.
+In 1982, P. J. Cameron asked whether all arc-transitive digraphs are diagonalizable. In this [paper](https://onlinelibrary.wiley.com/doi/pdf/10.1002/jgt.3190090308), L. Babai answered this question by contructing non-diagonalizable arc-transitive digraphs. Babai also asked to construct non-diagonalizable vertex-primitive digraphs. Recently, Y. Li, B. Xia, S. Zhou, and W. Zhu constructed such digraphs in this [paper](https://link.springer.com/article/10.1007/s00493-023-00068-x), and posed the following conjecture.
+
+**Conjecture.**
+*Every vertex-primitive arc-transitive digraph is diagonalizable.*
+
+This conjecture has been verified for all such digraphs with at most 1000 vertices. As noted [here](https://ajc.maths.uq.edu.au/pdf/89/ajc_v89_p305.pdf), the analysis can be restricted to vertex-primitive arc-transitive digraphs with the property that if $$G$$ is a transitive subgroup of the automorphism group, then the permutation character of $$G$$ is not multiplicity free. 
+

@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://sarobidy19.github.io/" />    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
     <!-- Website verification -->
     <meta name="google-site-verification" content="" />
@@ -11,9 +11,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sarobidy  Razafimahatratra | Page not found</title>
+    <title>Sarobidy  Razafimahatratra | research</title>
     <meta name="author" content="Sarobidy  Razafimahatratra" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -39,7 +40,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⋊</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://sarobidy19.github.io/404.html">
+    <link rel="canonical" href="https://sarobidy19.github.io/projects/">
     
     <!-- Dark Mode -->
     
@@ -86,8 +87,8 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">research</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/projects/">research<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/talks/">talks</a>
@@ -115,12 +116,77 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">research</h1>
+            <p class="post-description"></p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://sarobidy19.github.io/">here</a>.</p>
+            <!-- pages/projects.md -->
+
+<p>My research areas lie in the intersection of combinatorics and algebra. In particular, I am interested in the <a href="https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Ko%E2%80%93Rado_theorem" target="_blank" rel="noopener noreferrer">Erdős-Ko-Rado (EKR) theorem</a> for permutation groups and, sometimes, for other combinatorial structures. I also do research on some topics in the field of algebraic/spectral graph theory.</p>
+
+<h3 id="intersecting-problems-for-permutation-groups">Intersecting problems for permutation groups</h3>
+<p>Given a set of permutations \(\mathcal{F}\) of a set Ω, we say that F is <em>intersecting</em> if any two permutations of F agree on an element of \(\Omega\). That is,</p>
+
+\[\forall g,h \in \mathcal{F}, \exists \omega\in \Omega \text{ such that } \omega ^g = \omega^h.\]
+
+<p>It is easy to see that the subgroup \(G_\omega = \{ g\in G : \omega^g = \omega \}\) and any of its cosets are always intersecting. These are the so-called <em>canonical intersecting sets</em> of \(G\). A transitive permutation group G≤Sym(Ω) is said to have the EKR property if any family of intersecting permutations of G has size no more than a stabilizer of a point. The long term objective of this project is to classify groups that have the EKR property. This is of course a very ambitious plan and seems to be out of reach with the tools at our disposal.</p>
+
+<p>Let us now introduce a parameter that <em>measures</em> how far from a point stabilizer an intersecting is. Define the <strong>intersection density</strong> to be the rational number</p>
+
+\[\rho(G) = \max \left\{ \frac{|\mathcal{F}|}{|G_\omega|}: \mathcal{F}\subset G \mbox{ is intersecting} \right\}.\]
+
+<p>Clearly \(\rho(G)\geq 1\). In a <a href="https://www.sciencedirect.com/science/article/pii/S0097316520301825?casa_token=gJcp2-2pwxkAAAAA:K6S7EpTnCMg-Lfz_BZ64HSMhFtDbgA6n65MpXdUHwpPnfFiur1-HqN6SgwlDVAO8n2FbZgTPmOg" target="_blank" rel="noopener noreferrer">paper</a> with Karen Meagher and Pablo Spiga, we showed that in fact</p>
+
+\[1 \leq \rho(G) \leq \frac{|\Omega|}{3}.\]
+
+<p>The upper bound is sharp since the group \(\operatorname{Alt}(4)\) acting on cosets of \(C_2\) has intersection density \(2\) (due to the fact that the largest intersecting sets are cosets of the Klein group \(C_2\times C_2\)) and \(\frac{6}{3} = 2\). In fact, there are only four transitive groups with intersection density attaining the upper bound.</p>
+
+<p>One typical method often used to prove an EKR type problem is to turn it into a graph theoretic problem. Define the <strong>derangement graph</strong> \(\Gamma_G\) of a transitive group \(G\leq \operatorname{Sym}(\Omega)\) to be the graph whose vertex set is \(G\) and two group elements \(g\) and \(h\) are adjacent if and only if \(hg^{-1}\) is a <em>derangement</em>, i.e., a fixed-point-free permutation of \(G\). It follows that</p>
+
+\[\mathcal{F} \subset G \mbox{ is intersecting} \Leftrightarrow \mathcal{F} \mbox{ is a coclique of }\Gamma_G.\]
+
+<p>Using this fact, we deduce that</p>
+
+\[\rho(G) = \frac{\alpha(\Gamma_G)}{|G_\omega|}.\]
+
+<p>On thing to note here is that all the transitive groups attaining the upper bound \(\frac{|\Omega|}{3}\) have very special derangement graphs. In particular, their derangement graphs are complete tripartite. So far, we have not been able to find more groups attaining this upper bound.
+A problem that I would like to be solved is the following.</p>
+
+<p><strong>Problem.</strong></p>
+
+<p>Construct a family of transitive groups attaining whose intersecting density is 
+\(\frac{|\Omega|}{3}\)
+.
+Is the intersection density \(\frac{|\Omega|}{3}\) always an integer for such groups?</p>
+
+<p>In fact, I counjecture that the following statement is true.</p>
+
+<p><strong>Conjecture.</strong></p>
+
+<p>Given a transitive group \(G\leq \operatorname{Sym}(\Omega)\), we have that \(\rho(G) = \frac{|\Omega|}{3}\) 
+if and only if 
+\(\Gamma_G\) is a complete tripartite graph.</p>
+
+<p>Here are some reading materials on this topic:</p>
+<ol>
+  <li>Karen Meagher, Pablo Spiga, and Pham Huu Tiep. An Erdős-Ko–Rado theorem for finite 2-transitive groups. European Journal of Combinatorics, 55:100–118, 2016.</li>
+  <li>Chris Godsil and Karen Meagher. A new proof of the Erdős-Ko-Rado theorem for intersecting families of permutations. European Journal of Combinatorics, 30(2):404–414, 2009.</li>
+  <li>Chris Godsil and Karen Meagher. Erdős-Ko-Rado theorems: algebraic approaches</li>
+  <li>Hujdurović, A., Kutnar, K., Kuzma, B., Marušič, D., Miklavič, Š., and Orel, M. On intersection density of transitive groups of degree a product of two odd primes. Finite Fields and Their Applications 78 (2022): 101975.</li>
+</ol>
+
+<h3 id="non-diagonalizable-vertex-primitive-arc-transitive-digraphs">Non-diagonalizable vertex-primitive arc-transitive digraphs</h3>
+
+<p>Let \(X = (V,E)\) be a digraph with vertex set \(V\) and arc set \(E\). We say that \(X\) is <em>diagonalizable</em> if its adjacency matrix is diagonalizable over the complex number. If \(E\) is symmetric, then of course the adjacency matrix of \(X\) is a symmetric matrix, hence diagonalizable. An example of a non-diagonalizable digraph is one whose adjacency matrix is a Jordan block. In general, one can come up with lots of examples but those arising from highly symmetric digraphs are more or less rare.</p>
+
+<p>In 1982, P. J. Cameron asked whether all arc-transitive digraphs are diagonalizable. In this <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/jgt.3190090308" target="_blank" rel="noopener noreferrer">paper</a>, L. Babai answered this question by contructing non-diagonalizable arc-transitive digraphs. Babai also asked to construct non-diagonalizable vertex-primitive digraphs. Recently, Y. Li, B. Xia, S. Zhou, and W. Zhu constructed such digraphs in this <a href="https://link.springer.com/article/10.1007/s00493-023-00068-x" target="_blank" rel="noopener noreferrer">paper</a>, and posed the following conjecture.</p>
+
+<p><strong>Conjecture.</strong>
+<em>Every vertex-primitive arc-transitive digraph is diagonalizable.</em></p>
+
+<p>This conjecture has been verified for all such digraphs with at most 1000 vertices. As noted <a href="https://ajc.maths.uq.edu.au/pdf/89/ajc_v89_p305.pdf" target="_blank" rel="noopener noreferrer">here</a>, the analysis can be restricted to vertex-primitive arc-transitive digraphs with the property that if \(G\) is a transitive subgroup of the automorphism group, then the permutation character of \(G\) is not multiplicity free.</p>
+
 
           </article>
 

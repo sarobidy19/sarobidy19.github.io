@@ -1,5 +1,5 @@
 ---
-layout: no-header-about
+layout: about
 title: Association Schemes and their Applications at the CMS summer meeting 2024
 date: 2024-02-16 16:11:00-0400
 inline: false
@@ -59,8 +59,8 @@ To submit your abstract, please click [here](https://www2.cms.math.ca/Events/sum
       *This a promotion code for the meeting. To book a flight with your promotion code, access aircanada.com and enter your promotion code in the Promotion Code Box.  Enter the **Promotion Code PQDMHQB1** during booking to receive the discount. If it is not entered or entered incorrectly, the discounts will not be applied to the booking. Ticketing agencies/airlines must record the code on the delegate’s ticket.*
 
       *Discounts: 10% discount on eligible fares. For North America' 5% applies on standard fares, 10% on flex fares & higher. For International Travel' 10% on standard fares & higher.*
--->
-You can read the official CMS instructions [here](https://summer24.cms.math.ca/accomodation-and-travel) for more details.
+
+You can read the official CMS instructions [here](https://summer24.cms.math.ca/accomodation-and-travel) for more details.-->
 
 ### Organizers
 <table style="width:100%">

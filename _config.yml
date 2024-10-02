@@ -16,7 +16,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⋊ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://sarobidy19.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: '' # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -111,7 +111,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  The best way to reach me is by email at sarobidy at phystech dot edu.
+  The best way to reach me is by email at sarobidy at phystech dot su.
   <p> </p>
   <p><a href="https://www.flagcounter.me/details/d6E"><img src="https://www.flagcounter.me/d6E/" alt="Flag Counter"></a></p>
 
@@ -193,14 +193,14 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /:collection/:title/
   projects:
     output: true
     permalink: /:collection/:title/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 

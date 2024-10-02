@@ -19,11 +19,11 @@ The 2024 CMS Summer Meeting will be held from May 31 to June 3  at the **Univers
 
 ### Registration and abstract
 
-You can register [here](https://summer24.cms.math.ca/registration). 
+You can register . 
 
 The registration fee varies depending on whether you are a CMS member (student, postdoc, professor, retired, etc) or a non-member (student, postdoc, professor).
 
-To submit your abstract, please click [here](https://www2.cms.math.ca/Events/summer24/abs/Create/). 
+To submit your abstract, please click . 
 
 ### Important dates
 

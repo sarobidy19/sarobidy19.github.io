@@ -2,7 +2,7 @@
 layout: page
 title: Non-diagonalizable digraphs
 description: 
-img: assets/img/Petersen.png
+img: assets/img/cube.jpg
 importance: 2
 category: Spectral graph theory
 giscus_comments: false 
@@ -32,7 +32,7 @@ If $$G\leq Sym(\Omega)$$ is a transitive group, then the orbitals of $$G$$ form 
 
 Commutativity in association schemes gives a nice way to show diagonalizability. Indeed, if $$A_0,A_1,\ldots,A_d$$ are the adjacency matrices of digraphs in a commutative association scheme, then $$\{A_0,A_1,\ldots,A_d\}$$ is set of commuting normal matrices. Therefore, they are simultaneously diagonalizable. We can deduce from this fact that if $$G\leq Sym(\Omega)$$ is transitive, and the point-stabilizer $$G_\omega$$ is multiplicity free, then every digraph admitting $$G$$ as a subgroup of automorphism is diagonalizable.
 
-Therefore, we may only consider the primitive groups whose point-stabilizers are not multiplicity free. The group $$PSL_2(17)$$ acting on $2$-subsets of $PG_1(17)$ has degree $$153$$. The primitive groups of degree up to $153$ whose point-stabilizers are multiplicity free are given below.
+Therefore, we may only consider the primitive groups whose point-stabilizers are not multiplicity free. The group $$PSL_2(17)$$ acting on $$2$$-subsets of $$PG_1(17)$$ has degree $$153$$. The primitive groups of degree up to $$153$$ whose point-stabilizers are multiplicity free are given below.
 
 |---|---|---|---|
 |Group | Stabilizer | Rank| id|

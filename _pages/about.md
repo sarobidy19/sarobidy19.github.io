@@ -22,3 +22,5 @@ I am a Fields Institute postdoctoral fellow working with [Ada Chan](https://www.
 I primarily work on [Erdős–Ko–Rado](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Ko%E2%80%93Rado_theorem) type results for various combinatorial objects with algebraic flavours. I am particularly interested in problems related to permutation groups and algebraic graph theory. My other research interest is the study of certain properties of Cayley graphs (hamiltonicity, eigenvalues, symmetry). Recently, I have also started working on problems about quantum walks in graphs. 
 
 Feel free to contact me by email for more details.
+
+If you are interested to give a talk in the York University Discrete Mathematics Seminar, please visit [link](https://sarobidyraz.com/YU-discrete-math/)

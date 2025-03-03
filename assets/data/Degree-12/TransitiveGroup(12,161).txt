@@ -1,0 +1,7 @@
+transitive_group_id: [12,161]
+ Description: ((A4 x A4) : C2) : C2 
+ Stabilizer: A4 : C4 
+Density: 1
+Join: True 
+Spectrum: [(-32, 16), (0, 144), (388, 1), (-188, 1), (4, 162), (12, 36), (-4, 162), (16, 16), (-12, 36), (28, 2)]
+

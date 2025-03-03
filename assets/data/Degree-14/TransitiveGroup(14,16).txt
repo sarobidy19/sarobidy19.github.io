@@ -1,0 +1,7 @@
+transitive_group_id: [14,16]
+ Description: PSL(3,2) : C2 
+ Stabilizer: S4 
+Density: 1
+Join: True 
+Spectrum: [(0, 98), (6, 128), (-8, 108), (-120, 1), (216, 1)]
+

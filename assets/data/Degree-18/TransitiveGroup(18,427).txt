@@ -1,0 +1,7 @@
+transitive_group_id: [18,427]
+ Description: C2 x (PSL(2,8) : C3) 
+ Stabilizer: (C2 x C2 x C2) : (C7 : C3) 
+Density: 1
+Join: True 
+Spectrum: [(-70, 128), (0, 1458), (-952, 1), (8, 882), (-16, 196), (2072, 1), (-7, 256), (56, 102)]
+

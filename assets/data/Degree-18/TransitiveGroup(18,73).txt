@@ -1,0 +1,7 @@
+transitive_group_id: [18,73]
+ Description: (C3 x C3) : QD16 
+ Stabilizer: D4 
+Density: 1
+Join: True 
+Spectrum: [(2, 64), (104, 1), (8, 12), (-16, 2), (-40, 1), (-4, 64)]
+

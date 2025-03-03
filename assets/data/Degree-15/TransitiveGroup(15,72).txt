@@ -1,0 +1,7 @@
+transitive_group_id: [15,72]
+ Description: A8 
+ Stabilizer: (C2 x C2 x C2) : PSL(3,2) 
+Density: 1
+Join: False 
+Spectrum: [(5824, 1), (0, 4050), (64, 6517), (-416, 196), (-32, 4900), (-56, 4096), (112, 400)]
+

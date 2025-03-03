@@ -1,0 +1,7 @@
+transitive_group_id: [18,102]
+ Description: (C2 x C2 x ((C3 x C3) : C2)) : C3 
+ Stabilizer: D6 
+Density: 1
+Join: True 
+Spectrum: [(2, 120), (5, 9), (11, 3), (173, 1), (-13, 9), (-43, 2), (-4, 72)]
+

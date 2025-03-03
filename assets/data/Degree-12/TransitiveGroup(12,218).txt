@@ -1,0 +1,7 @@
+transitive_group_id: [12,218]
+ Description: PSL(2,11) : C2 
+ Stabilizer: C11 : C10 
+Density: 1
+Join: False 
+Spectrum: [(0, 576), (5, 121), (-55, 122), (11, 500), (605, 1)]
+

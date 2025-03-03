@@ -1,0 +1,7 @@
+transitive_group_id: [10,7]
+ Description: A5 
+ Stabilizer: S3 
+Density: 2.0
+Join: False 
+Spectrum: [(24, 1), (0, 25), (-6, 16), (4, 18)]
+

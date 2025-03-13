@@ -7,5 +7,5 @@ nav: true
 nav_order: 6
 ---
 
-* **[Intersection density database](/projects/3_project/)**
+* **[Intersection density](/projects/3_project/)**
 

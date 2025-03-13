@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Intersection density database
+title: Intersection density
 img: assets/img/Kneser-5-2.svg.png
 importance: 3
 category: Code
@@ -24,7 +24,4 @@ This is a database of the intersection density of transitive groups of degree up
 * [Degree 15](/assets/data/Degree-15)
 * [Degree 18](/assets/data/Degree-18)
 * [Degree 20](/assets/data/Degree-18)
-
-Special cases
-
-* [Prime power degree](prime-power-or-product-of-two-odd-primes.html)
+* [Special cases](/assets/data/special-cases)

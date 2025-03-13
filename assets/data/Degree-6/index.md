@@ -20,6 +20,8 @@ title: Degree 6 #all-files-order-6
 
 ### Data
 
+
+
 |n|k|Description|Density|Information|
  |:---:|:---:|:-----:|:-------:|:----------:|
 |6|1|C6|1|Abelian|

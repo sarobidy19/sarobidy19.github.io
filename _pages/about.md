@@ -23,7 +23,5 @@ I primarily work on [Erdős–Ko–Rado](https://en.wikipedia.org/wiki/Erd%C5%91
 
 Feel free to contact me by email for more details.
 
-You can find the data on the intersection density of transitive groups of degree up to 18 [here](https://sarobidyraz.com/EKR-data/).
-
 
 If you are interested to give a talk in the York University Discrete Mathematics Seminar, please visit [link](https://sarobidyraz.com/YU-discrete-math/)

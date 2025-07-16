@@ -1,80 +1,201 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Association Schemes for SageMath
+description: 
+img: assets/img/Heawood_graph.png
 importance: 3
-category: fun
+category: Code
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# association-schemes package
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This is a Sagemath package for association schemes. To load the package, just type the following in a terminal.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+```  sage
+load("https://raw.githubusercontent.com/sarobidy19/association-schemes/refs/heads/main/code.sage")
+```
+### Generic association schemes
+An association scheme in the association-schemes package is defined by giving the adjacency matrices corresponding to the relations.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+```  sage
+association_scheme(adjacency_matrices)
+INPUT:
+ - adjacency_matrices: a list of 01-matrices forming an association scheme.
+OUTPUT:
+  A class called association_scheme.
 ```
 
-{% endraw %}
+**Example:** The Johnson scheme J(5,2) can be obtained as follows.
+``` sage
+sage: X = graphs.PetersenGraph()
+sage: A = X.adjacency_matrix()
+sage: B = X.complement().adjacency_matrix()
+sage: I = matrix.identity(X.order())
+sage: AS = association_scheme([I,A,B])
+```
+
+### Methods
+
+- ``order()``
+    
+    Return the number of vertices in self.
+
+    ```  sage
+    sage: X = graphs.PetersenGraph()
+    sage: A = X.adjacency_matrix()
+    sage: B = X.complement().adjacency_matrix()
+    sage: I = matrix.identity(X.order())
+    sage: AS = association_scheme([I,A,B])
+    sage: AS.order()
+    10
+
+    ```
+- ``rank()``
+  
+    Return the number of relations in self.
+  
+    ```  sage
+    sage: X = graphs.PetersenGraph()
+    sage: A = X.adjacency_matrix()
+    sage: B = X.complement().adjacency_matrix()
+    sage: I = matrix.identity(X.order())
+    sage: AS = association_scheme([I,A,B])
+    sage: AS.rank()
+    3
+    ```
+- ``adjacency_matrices()``
+  
+    Return the adjacency matrices of self as a list.
+    ```  sage
+    sage: AS.adjacency_matrices()
+    [
+    [1 0 0 0 0 0 0 0 0 0]  [0 1 0 0 1 1 0 0 0 0]  [0 0 1 1 0 0 1 1 1 1]
+    [0 1 0 0 0 0 0 0 0 0]  [1 0 1 0 0 0 1 0 0 0]  [0 0 0 1 1 1 0 1 1 1]
+    [0 0 1 0 0 0 0 0 0 0]  [0 1 0 1 0 0 0 1 0 0]  [1 0 0 0 1 1 1 0 1 1]
+    [0 0 0 1 0 0 0 0 0 0]  [0 0 1 0 1 0 0 0 1 0]  [1 1 0 0 0 1 1 1 0 1]
+    [0 0 0 0 1 0 0 0 0 0]  [1 0 0 1 0 0 0 0 0 1]  [0 1 1 0 0 1 1 1 1 0]
+    [0 0 0 0 0 1 0 0 0 0]  [1 0 0 0 0 0 0 1 1 0]  [0 1 1 1 1 0 1 0 0 1]
+    [0 0 0 0 0 0 1 0 0 0]  [0 1 0 0 0 0 0 0 1 1]  [1 0 1 1 1 1 0 1 0 0]
+    [0 0 0 0 0 0 0 1 0 0]  [0 0 1 0 0 1 0 0 0 1]  [1 1 0 1 1 0 1 0 1 0]
+    [0 0 0 0 0 0 0 0 1 0]  [0 0 0 1 0 1 1 0 0 0]  [1 1 1 0 1 0 0 1 0 1]
+    [0 0 0 0 0 0 0 0 0 1], [0 0 0 0 1 0 1 1 0 0], [1 1 1 1 0 1 0 0 1 0]
+    ]
+    ```
+- ``base_matrix()``
+  
+    Return the base matrix of self. If $$(\Omega,\mathcal{R})$$ is an association scheme with adjacency matrices $$A_0 = I, A_1,\ldots, A_d$$, then the *base matrix* of $$(\Omega,\mathcal{R})$$ is the matrix
+    $$0A_0 + 1A_1+2A_2+ \ldots+ dA_d$$.
+
+    ```  sage
+    sage: X = graphs.PetersenGraph()
+    sage: A = X.adjacency_matrix()
+    sage: B = X.complement().adjacency_matrix()
+    sage: I = matrix.identity(X.order())
+    sage: AS = association_scheme([I,A,B])
+    sage: AS.base_matrix()
+    [0 1 2 2 1 1 2 2 2 2]
+    [1 0 1 2 2 2 1 2 2 2]
+    [2 1 0 1 2 2 2 1 2 2]
+    [2 2 1 0 1 2 2 2 1 2]
+    [1 2 2 1 0 2 2 2 2 1]
+    [1 2 2 2 2 0 2 1 1 2]
+    [2 1 2 2 2 2 0 2 1 1]
+    [2 2 1 2 2 1 2 0 2 1]
+    [2 2 2 1 2 1 1 2 0 2]
+    [2 2 2 2 1 2 1 1 2 0]
+    ```
+- ``intersection_number(i,j,k)``
+
+    Return the intersection number $$p_{ij}^k$$ of the association scheme ``self``.
+
+    
+    INPUT: integers $$i,j,$$ and $$k$$ between $$0$$ and the $$r$$, where $$r+1$$ is the rank of the association scheme.
+
+    OUTPUT: the value of $$p_{ij}^k$$.
+    
+    EXAMPLE:
+
+    For example, the intersection numbers of the affine polar graph $$VO_6^-(2)$$ can be computed as follows.
+
+    ``` sage
+        sage: X = graphs.AffineOrthogonalPolarGraph(6,2,sign="-")
+        sage: A = X.adjacency_matrix()
+        sage: B = X.complement().adjacency_matrix()
+        sage: I = matrix.identity(X.order())
+        sage: AS = association_scheme([I,A,B])
+        sage: AS.intersection_number(0,1,1)
+        1
+        sage: AS.intersection_number(1,1,1)
+        10
+        sage: AS.intersection_number(2,2,1)
+        20
+        sage: AS.intersection_number(2,2,2)
+        20
+    ```
+
+- ``is_commutative()``
+
+    Return whether or not ``self`` is a commutative association scheme.
+
+    The $$d$$-class assocition scheme $$(\Omega,\mathcal{R})$$ is commutative if its intersection numbers satisfy $$p_{ij}^k = p_{ji}^k$$, for all $$0\leq i,j,k\leq d$$. 
+
+    EXAMPLE:
+
+    ```sage
+    sage: AS = OrbitalSchemeTransitiveGroup(group_acting_on_subsets(PSL(2,7),2))
+    sage: AS.is_commutative()
+    False
+    sage: AS = OrbitalSchemeTransitiveGroup(group_acting_on_subsets(AlternatingGroup(7),2))
+    sage: AS.is_commutative()
+    True
+
+    ```
+
+- ``is_schurian()``
+
+    Return whether or not ``self`` is Schurian, that is, its relations are the orbital of a transitive group
+
+    EXAMPLE: 
+
+    ```sage
+    sage: X = graphs.ShrikhandeGraph()
+    sage: G = X.automorphism_group()
+    sage: AS1 = OrbitalSchemeTransitiveGroup(G)
+    sage: AS1.is_schurian()
+    True
+    sage: A = X.adjacency_matrix()
+    sage: B = X.complement().adjacency_matrix()
+    sage: I = matrix.identity(X.order())
+    sage: AS2 = association_scheme([I,A,B])
+    sage: AS2.is_schurian()
+    False
+    ```
+
+- ``automorphism_group()``
+
+    Return the automorphism group of ``self``, that is, the permutation group that preserves all relations of ``self``.
+
+    EXAMPLE:
+
+    ```sage
+    sage: X = graphs.ShrikhandeGraph()
+    sage: G = X.automorphism_group()
+    sage: A = X.adjacency_matrix()
+    sage: B = X.complement().adjacency_matrix()
+    sage: I = matrix.identity(X.order())
+    sage: AS = association_scheme([I,A,B])
+    sage: K = AS.automorphism_group()
+    sage: K.structure_description()
+    '(((C4 x C4) : C3) : C2) : C2'
+    sage: K.is_transitive()
+    True
+    ```
+- ``character_table()``
+- ``P_matrix()``
+- ``Q_matrix()``
+- ``is_formally_self_dual()``
+- ``dimension_of_t_zero()``
+- ``dimension_of_centralizer_algebra()``
+- ``TerwilligerAlgebra()``
+- ``graphs_in_scheme()``
+- ``ratio_bound()``

@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page My other research interest is the study of certain properties of Cayley graphs (hamiltonicity, eigenvalues, symmetry).
 ---
 
-I am the 2024 Fields-AIMS-Perimeter postdoctoral fellow at the Fields Institute, where I am working with [Ada Chan](https://www.yorku.ca/ssachan/). From September 2022 to June 2024, I was a postdoctoral researcher in algebraic graph theory at the University of Primorska, working under the mentorship of [Dragan Marušič](https://www.famnit.upr.si/sl/zaposleni-in-sodelavci/dragan.marusic/). I completed my Ph.D in 2022 at the University of Regina under the supervision of  [Karen Meagher](https://uregina.ca/~meagherk/) and [Shaun Fallat](https://uregina.ca/~sfallat/).
+I am a Fields Institute postdoctoral fellow at Carleton University working with [Brett Stevens](https://carleton.ca/math/people/brett-stevens/) and [Steven Wang](https://people.math.carleton.ca/~wang/). From July 2024 to June 2025, I was the 2024 Fields-AIMS-Perimeter postdoctoral fellow at the Fields Institute, where I worked with [Ada Chan](https://www.yorku.ca/ssachan/). From September 2022 to June 2024, I was a postdoctoral researcher in algebraic graph theory at the University of Primorska, working under the mentorship of [Dragan Marušič](https://www.famnit.upr.si/sl/zaposleni-in-sodelavci/dragan.marusic/). I completed my Ph.D in 2022 at the University of Regina under the supervision of  [Karen Meagher](https://uregina.ca/~meagherk/) and [Shaun Fallat](https://uregina.ca/~sfallat/).
 
 I primarily work on topics in algebraic graph theory. I am particularly interested in the part of algebraic graph theory that deals with permutation group theory, spectral graph theory, and association schemes. 
 
@@ -25,5 +25,3 @@ I am currently working on [Erdős–Ko–Rado](https://en.wikipedia.org/wiki/Erd
 
 Feel free to contact me by email for more details.
 
-
-If you are interested to give a talk in the York University Discrete Mathematics Seminar, please visit [link](https://sarobidyraz.com/YU-discrete-math/)

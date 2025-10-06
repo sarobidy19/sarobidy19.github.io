@@ -9,7 +9,7 @@ profile:
   image: fig32.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> 4220 Herzberg Laboratories, </p>
+    <p> 4367 Herzberg Laboratories, </p>
     <p>1125 Colonel By Dr</p>
     <p>Ottawa, Canada</p>
 news: true # includes a list of news items

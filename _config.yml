@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Sarobidy
-middle_name: 
+middle_name:
 last_name: Razafimahatratra
 #email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -314,7 +314,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Razafimahatratra]
-  first_name: [Sarobidy, A.]
+  first_name: [Sarobidy, A. Sarobidy, Andriaherimanana Sarobidy]
 
   style: apa
   locale: en

@@ -7,6 +7,16 @@ nav: true
 nav_order: 6
 ---
 
+* **University of Regina Colloquium, October 2025**\\
+	Title: *The intersection density of transitive groups of degree a product of two odd primes*\\
+	Location: University of Regina\\
+	[[slides]]()
+
+* **CanaDAM, 2025**\\
+	Title: *Association schemes in Erdős-Ko-Rado theory*\\
+	Location: University of Ottawa\\
+	[[slides]]()
+
 * **University of Regina Colloquium, December 2024**\\
 	Title: *The Hamilton compression of vertex-transitive graphs*\\
 	Location: University of Regina\\

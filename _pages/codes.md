@@ -3,9 +3,8 @@ layout: page
 permalink: /codes/
 title: data
 #description: Materials for courses you taught. Replace this text with your description.
-nav: true
+nav: false
 nav_order: 6
 ---
 
 * **[Intersection density](/projects/3_project/)**
-

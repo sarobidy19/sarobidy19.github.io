@@ -6,7 +6,7 @@ description: These are mostly math projects.
 nav: true
 nav_order: 3
 display_categories: [EKR, Code, Spectral graph theory]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

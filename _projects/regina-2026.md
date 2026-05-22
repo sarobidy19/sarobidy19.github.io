@@ -51,3 +51,21 @@ category: gallery
         {% include figure.liquid path="assets/img/Regina-2026/20260519_205820.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Regina-2026/20260521_143232.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Regina-2026/20260521_143442.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Regina-2026/20260507_211104.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Regina-2026/IMG_6862.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>

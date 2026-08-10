@@ -7,6 +7,11 @@ nav: false
 nav_order: 6
 ---
 
+* **Prairie Discrete Mathematics Workshop, May 2026**\\
+	Title: *On Ramanujan Derangement graphs from general linear groups of degree 2*\\
+	Location: University of Regina\\
+	[[slides]]()
+
 * **University of Regina Colloquium, October 2025**\\
 	Title: *The intersection density of transitive groups of degree a product of two odd primes*\\
 	Location: University of Regina\\

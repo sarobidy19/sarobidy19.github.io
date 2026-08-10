@@ -8,3 +8,4 @@ nav_order: 6
 ---
 
 * **[Intersection density](/projects/3_project/)**
+* **[Association schemes for SageMath](https://github.com/sarobidy19/association-schemes)**

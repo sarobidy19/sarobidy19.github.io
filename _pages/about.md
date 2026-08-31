@@ -9,9 +9,9 @@ profile:
   image: fig32.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> 4367 Herzberg Laboratories, </p>
-    <p>1125 Colonel By Dr</p>
-    <p>Ottawa, Canada</p>
+    <p> Department of Mathematics and Computer Science, </p>
+    <p>University of Lethbridge</p>
+    <p>Lethbridge, Canada</p>
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page My other research interest is the study of certain properties of Cayley graphs (hamiltonicity, eigenvalues, symmetry).

@@ -7,11 +7,12 @@ dropdown: true
 children:
   - title: data
     permalink: /codes/
-  - title: divider
   - title: talks
     permalink: /talks/
   - title: cv
     permalink: /cv/
   - title: gallery
     permalink: /gallery/
+  #- title: blog
+  #  permalink: /blog/
 ---
